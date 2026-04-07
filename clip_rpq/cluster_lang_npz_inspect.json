@@ -1,0 +1,61 @@
+{
+  "exists": true,
+  "keys": [
+    "leaf_feat",
+    "leaf_score",
+    "occu_count",
+    "leaf_ind"
+  ],
+  "consistency": {
+    "N_leaf_from_feat": 640,
+    "leaf_ind_range": [
+      0,
+      632
+    ],
+    "leaf_ind_within_feat_rows": true
+  },
+  "summary": {
+    "leaf_feat": {
+      "shape": [
+        640,
+        512
+      ],
+      "dtype": "float32",
+      "min": -0.6571608185768127,
+      "max": 0.263414591550827,
+      "rows": 640,
+      "cols": 512,
+      "l2_norm_mean": 0.18582314252853394,
+      "l2_norm_std": 0.3738575577735901,
+      "l2_norm_min": 0.0,
+      "l2_norm_max": 1.0002570152282715
+    },
+    "leaf_score": {
+      "shape": [
+        640
+      ],
+      "dtype": "float32",
+      "min": 0.0,
+      "max": 0.7856394648551941
+    },
+    "occu_count": {
+      "shape": [
+        640
+      ],
+      "dtype": "float32",
+      "min": 0.0,
+      "max": 80.0
+    },
+    "leaf_ind": {
+      "shape": [
+        713375
+      ],
+      "dtype": "int64",
+      "min": 0.0,
+      "max": 632.0,
+      "num_points": 713375,
+      "leaf_ind_min": 0,
+      "leaf_ind_max": 632
+    }
+  }
+}
