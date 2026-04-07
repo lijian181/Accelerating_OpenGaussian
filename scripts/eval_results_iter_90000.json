@@ -1,0 +1,182 @@
+{
+    "config": {
+        "iteration": 90000,
+        "task": "ScanNet Evaluation"
+    },
+    "scenes": {
+        "scene0000_00": {
+            "mIoU": 0.3523,
+            "mAcc": 0.5928,
+            "overall_accuracy": 0.5862,
+            "per_class_iou": {
+                "wall": 0.4633,
+                "floor": 0.5119,
+                "bed": 0.0,
+                "chair": 0.0,
+                "sofa": 0.4384,
+                "table": 0.2054,
+                "door": 0.3372,
+                "window": 0.4353,
+                "bookshelf": 0.0,
+                "toilet": 0.4268
+            }
+        },
+        "scene0062_00": {
+            "mIoU": 0.4982,
+            "mAcc": 0.6937,
+            "overall_accuracy": 0.6961,
+            "per_class_iou": {
+                "wall": 0.5813,
+                "floor": 0.4949,
+                "bed": 0.0,
+                "chair": 0.0,
+                "sofa": 0.0,
+                "table": 0.0,
+                "door": 0.5319,
+                "window": 0.0,
+                "bookshelf": 0.0,
+                "toilet": 0.3847
+            }
+        },
+        "scene0070_00": {
+            "mIoU": 0.3545,
+            "mAcc": 0.4939,
+            "overall_accuracy": 0.6247,
+            "per_class_iou": {
+                "wall": 0.4933,
+                "floor": 0.5637,
+                "bed": 0.6102,
+                "chair": 0.0,
+                "sofa": 0.0,
+                "table": 0.2939,
+                "door": 0.0,
+                "window": 0.1655,
+                "bookshelf": 0.0,
+                "toilet": 0.0
+            }
+        },
+        "scene0097_00": {
+            "mIoU": 0.4149,
+            "mAcc": 0.5834,
+            "overall_accuracy": 0.6465,
+            "per_class_iou": {
+                "wall": 0.6081,
+                "floor": 0.3682,
+                "bed": 0.0,
+                "chair": 0.0,
+                "sofa": 0.0,
+                "table": 0.0,
+                "door": 0.2685,
+                "window": 0.0,
+                "bookshelf": 0.0,
+                "toilet": 0.0
+            }
+        },
+        "scene0140_00": {
+            "mIoU": 0.4546,
+            "mAcc": 0.5968,
+            "overall_accuracy": 0.6372,
+            "per_class_iou": {
+                "wall": 0.5867,
+                "floor": 0.3856,
+                "bed": 0.0,
+                "chair": 0.4371,
+                "sofa": 0.0,
+                "table": 0.1632,
+                "door": 0.677,
+                "window": 0.4779,
+                "bookshelf": 0.0,
+                "toilet": 0.0
+            }
+        },
+        "scene0200_00": {
+            "mIoU": 0.3794,
+            "mAcc": 0.5367,
+            "overall_accuracy": 0.53,
+            "per_class_iou": {
+                "wall": 0.443,
+                "floor": 0.4295,
+                "bed": 0.1568,
+                "chair": 0.733,
+                "sofa": 0.0,
+                "table": 0.0,
+                "door": 0.0,
+                "window": 0.5139,
+                "bookshelf": 0.0,
+                "toilet": 0.0
+            }
+        },
+        "scene0347_00": {
+            "mIoU": 0.4083,
+            "mAcc": 0.5193,
+            "overall_accuracy": 0.6053,
+            "per_class_iou": {
+                "wall": 0.5357,
+                "floor": 0.2027,
+                "bed": 0.0,
+                "chair": 0.0,
+                "sofa": 0.0,
+                "table": 0.0,
+                "door": 0.4864,
+                "window": 0.0,
+                "bookshelf": 0.0,
+                "toilet": 0.0
+            }
+        },
+        "scene0400_00": {
+            "mIoU": 0.3955,
+            "mAcc": 0.5317,
+            "overall_accuracy": 0.6651,
+            "per_class_iou": {
+                "wall": 0.5745,
+                "floor": 0.499,
+                "bed": 0.0,
+                "chair": 0.4821,
+                "sofa": 0.0,
+                "table": 0.0,
+                "door": 0.2167,
+                "window": 0.6004,
+                "bookshelf": 0.0,
+                "toilet": 0.0
+            }
+        },
+        "scene0590_00": {
+            "mIoU": 0.5303,
+            "mAcc": 0.6713,
+            "overall_accuracy": 0.6927,
+            "per_class_iou": {
+                "wall": 0.5439,
+                "floor": 0.5788,
+                "bed": 0.5208,
+                "chair": 0.3951,
+                "sofa": 0.8714,
+                "table": 0.2188,
+                "door": 0.5831,
+                "window": 0.0,
+                "bookshelf": 0.0,
+                "toilet": 0.0
+            }
+        },
+        "scene0645_00": {
+            "mIoU": 0.3791,
+            "mAcc": 0.5652,
+            "overall_accuracy": 0.6446,
+            "per_class_iou": {
+                "wall": 0.5788,
+                "floor": 0.4171,
+                "bed": 0.4045,
+                "chair": 0.4088,
+                "sofa": 0.6068,
+                "table": 0.1791,
+                "door": 0.407,
+                "window": 0.0251,
+                "bookshelf": 0.0,
+                "toilet": 0.3844
+            }
+        }
+    },
+    "overall_average": {
+        "mean_mIoU": 0.4167,
+        "mean_mAcc": 0.5785
+    }
+}
